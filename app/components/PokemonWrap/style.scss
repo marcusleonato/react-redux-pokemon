@@ -1,0 +1,26 @@
+@import '../../styles/base/_colors.scss';
+@import '../../styles/mixins/_mixins.scss';
+
+.product-list {
+  padding: 15px 17px 15px 16px;
+  background-color: $white;
+  @include border-radius(2px);
+  @include box-shadow(0, 2px, 4px, 0, rgba(0, 0, 0, 0.12));
+  .load-more{
+    background-color: $gray-radiance;
+    padding: 12px 13px;
+    @include border-radius(5px);
+    font-size: 11px;
+    color: #FFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    &:hover{
+      background-color: $gray-radiance-variant;
+    }
+  }
+}
+
+

@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+}
+
+#main {
+  display: flex;
+  padding-top: 60px;
+  .column:nth-of-type(2) {
+    padding-right: 20px;
+  }
+}
+
+.flex-grid .column {
+  flex: 1 1 0%;
+  padding: 20px 0px 0px 20px;
+}
+
+.flex-grid {
+  display: flex;
+  width: 100%;
+  padding-left: 99px;
+  overflow: hidden;
+}
+
+.bg-gray {
+  background-color: $seashell;
+}
+
+.searchBar label {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 18px;
+  color: $dusty-gray;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: $gray-radiance;
+}
+
+.logo {
+  background-color: $white;
+}
+
+.title,
+.nav-menu a {
+  color: $white;
+}
+
+.nav-menu {
+  background-color: $white;
+}
+
+.nav-menu li:hover {
+  background-color: $gray-radiance;
+}
+
+.nav-menu .active {
+  background-color: $azure-radiance-variant;
+}
+
