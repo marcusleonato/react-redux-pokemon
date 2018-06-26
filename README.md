@@ -2,6 +2,9 @@
 
 Pokemon Go React by Marcus Leonato
 
+<img src="https://raw.githubusercontent.com/marcusleonato/props/master/pokemon.png" alt="Pokemon Go React" align="center" />
+
+
 ### Instalação
 
 ```
